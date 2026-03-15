@@ -15,3 +15,7 @@ For more information on the relational database I used, please see the “AI Sam
 *Please Note: While my dataset was generated with AI, I certify that none of the code used in this project is AI generated.
 
 #### Analysis
+```
+SELECT sum(amount)::money AS "Total Gift Amount All Time", avg(amount)::money AS "Average All Time Gift Amount"
+FROM gifts;
+```
